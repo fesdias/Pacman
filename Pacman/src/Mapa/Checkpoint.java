@@ -1,5 +1,7 @@
 package Mapa;
 
+import BasicElements.LabObj;
+
 public class Checkpoint extends LabObj{
 	
 	private boolean conquered = false;
