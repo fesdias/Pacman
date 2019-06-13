@@ -1,6 +1,6 @@
 package BasicElements;
 
-import Mapa.Coordinate;
+import map.Coordinate;
 
 public abstract class LabObj {
 

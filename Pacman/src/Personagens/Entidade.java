@@ -1,12 +1,10 @@
 package Personagens;
-import Mapa.Coordinate;
-import Mapa.Direction;
-import Mapa.Wall;
 
 import java.util.ArrayList;
-
 import BasicElements.LabObj;
-
+import map.Coordinate;
+import map.Direction;
+import map.Wall;
 
 public abstract class Entidade extends LabObj{
 	

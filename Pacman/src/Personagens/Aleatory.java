@@ -1,6 +1,7 @@
 package Personagens;
 import java.util.Random;
-import Mapa.Direction;
+
+import map.Direction;
 
 public class Aleatory extends Ghost {
 	
@@ -13,8 +14,6 @@ public class Aleatory extends Ghost {
 		Random rand = new Random();
 		
 		int n = rand.nextInt(3);
-		this.updateDirection((Direction)n);
-		/* Discovery how to use index enum */
+		this.updateDirection(Direction.values()[n]);
 	}
-
 }

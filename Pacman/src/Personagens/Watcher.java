@@ -1,7 +1,9 @@
 package Personagens;
-import Mapa.Coordinate;
+import functions.Functions;
+import map.Coordinate;
+import map.Wall;
+
 import java.util.ArrayList;
-import Mapa.Wall;
 
 public class Watcher extends Ghost{
 	
@@ -15,7 +17,7 @@ public class Watcher extends Ghost{
 		Coordinate c;
 		do {
 			c = new Coordinate();
-		} while (search(c.getX(), c.getY(), w));
+		} while (searchWall(c.getX(), c.getY(), w));
 		
 		this.updateCoord(c);
 	}
